@@ -5,6 +5,7 @@ set tabstop=4
 set shiftwidth=4
 set lcs=tab:\|\ 
 set list
+syntax on
 
 let mapleader=","
 
@@ -18,8 +19,8 @@ set smartcase
 
 
 "" split 
-noremap <Leader>h :<C-u>split<CR>
-noremap <Leader>v :<C-u>vsplit<CR>
+nnoremap <Leader>h :<C-u>split<CR>
+nnoremap <Leader>v :<C-u>vsplit<CR>
 
 
 
@@ -29,3 +30,11 @@ nnoremap <leader>ev :vsplit $MYVIMRC<cr>
 "" source my vim file
 nnoremap <leader>sv :source $MYVIMRC<cr>
 
+
+
+"" navigation in insert mode
+
+imap <c-h> <esc>h
+imap <c-j> <esc>ji
+imap <c-k> <esc>ki
+imap <c-l> <esc>lli
