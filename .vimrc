@@ -5,3 +5,5 @@ set shiftwidth=4
 set ic
 set lcs=tab:\|\ 
 set list
+
+let mapleader=","
