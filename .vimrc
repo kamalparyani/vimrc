@@ -1,10 +1,18 @@
 
+
+
+
+
+
 set relativenumber
 set autoindent
+set smartindent
+set expandtab
 set tabstop=4
 set shiftwidth=4
-set lcs=tab:\|\ 
-set list
+"" set lcs=tab:\|\ 
+"" set list
+set ruler
 syntax on
 
 let mapleader=","
